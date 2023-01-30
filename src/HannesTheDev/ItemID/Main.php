@@ -5,7 +5,7 @@ namespace HannesTheDev\ItemID;
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
-use pocketmine\Player;
+use pocketmine\player\Player;
 use pocketmine\utils\Config;
 
 class Main extends PluginBase
@@ -14,7 +14,7 @@ class Main extends PluginBase
     public $config;
     public $prefix;
 
-    public function onEnable()
+    public function onEnable(): void
     {
         $this->saveResource("config.yml");
         $this->config = new Config($this->getDataFolder() . "config.yml", Config::YAML);
