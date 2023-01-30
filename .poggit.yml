@@ -1,4 +1,4 @@
---- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/HannesTheDev/ItemID
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/AlvinHere/ItemID
 build-by-default: true
 branches:
 - main
